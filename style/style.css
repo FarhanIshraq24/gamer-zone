@@ -62,14 +62,14 @@ body {
   display: flexbox;
   background: linear-gradient(90deg, #ff42a5, #ff42a5);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transwrapper50;
 }
 .gamer {
   position: absolute;
   top: 0;
   left: 106.04px;
 }
-.gamer-parent,
+.gamer-wrapper50,
 .group-item {
   position: absolute;
   top: 6px;
@@ -77,7 +77,7 @@ body {
   width: 86.04px;
   height: 40px;
 }
-.gamer-parent {
+.gamer-wrapper50 {
   top: 1px;
   width: 253.04px;
   height: 53px;
@@ -92,7 +92,7 @@ body {
 .developers {
   left: 113px;
 }
-.about-us-parent,
+.about-us-wrapper50,
 .group-inner {
   position: absolute;
   top: 17px;
@@ -134,14 +134,14 @@ body {
   font-size: var(--font-size-lg);
   color: var(--color-darkslategray);
 }
-.group-parent {
+.group-wrapper50 {
   position: absolute;
   top: 37px;
   left: 240px;
   width: 1440px;
   height: 56px;
 }
-.rectangle-parent {
+.rectangle-wrap {
   position: absolute;
   top: 0;
   left: 0;
@@ -151,7 +151,7 @@ body {
   font-size: var(--font-size-26xl);
 }
 
-.pngwing-1-parent {
+.pngwing-1-wrapper50 {
   position: absolute;
   top: 149px;
   left: 969px;
@@ -173,9 +173,9 @@ body {
   font-weight: 800;
   background: linear-gradient(180deg, #f948b2, #8758f1);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transwrapper50;
 }
-.play-like-the-parent {
+.play-like-the-wrapper50 {
   position: absolute;
   top: 0;
   left: 0;
@@ -189,7 +189,7 @@ body {
   text-transform: lowercase;
   font-weight: 500;
 }
-.click-instant-play-parent,
+.click-instant-play-wrapper50,
 .frame-icon {
   position: absolute;
   top: 0;
@@ -200,7 +200,7 @@ body {
   width: 24px;
   overflow: hidden;
 }
-.click-instant-play-parent {
+.click-instant-play-wrapper50 {
   width: 223px;
   text-align: center;
 }
@@ -210,25 +210,25 @@ body {
   left: 36px;
   font-weight: 500;
 }
-.no-download-parent {
+.no-download-wrapper50 {
   position: absolute;
   top: 40px;
   left: 0;
   width: 167px;
   height: 24px;
 }
-.s-of-supported-online-games-parent {
+.s-of-supported-online-games-wrapper50 {
   top: 80px;
   height: 24px;
 }
-.group-parent2,
+.group-wrapper502,
 .group-wrapper,
-.s-of-supported-online-games-parent {
+.s-of-supported-online-games-wrapper50 {
   position: absolute;
   left: 0;
   width: 362px;
 }
-.group-parent2 {
+.group-wrapper502 {
   top: 195px;
   height: 104px;
   text-align: left;
@@ -264,12 +264,12 @@ body {
   left: 180px;
   background-color: #4ec5f7;
 }
-.frame-parent,
+.frame-wrapper50,
 .group-div {
   position: absolute;
   width: 365px;
 }
-.frame-parent {
+.frame-wrapper50 {
   top: 339px;
   left: 0;
   height: 65px;
@@ -302,7 +302,7 @@ body {
   left: 195px;
   background: linear-gradient(180deg, #f948b2, #8758f1);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transwrapper50;
 }
 .an-international-digital {
   position: absolute;
@@ -313,7 +313,7 @@ body {
   display: inline-block;
   width: 520px;
 }
-.we-are-gamer-parent {
+.we-are-gamer-wrapper50 {
   position: absolute;
   top: 0;
   left: 0;
@@ -352,7 +352,7 @@ body {
   font-size: var(--font-size-xl);
   color: var(--color-white);
 }
-.group-parent3 {
+.group-wrapper503 {
   position: absolute;
   top: 925px;
   left: 1160px;
@@ -373,7 +373,7 @@ body {
 .funny-videos {
   background: linear-gradient(180deg, #f948b2, #8758f1);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transwrapper50;
 }
 .a-collection-of,
 .online-games-funny-container {
@@ -389,7 +389,7 @@ body {
   color: var(--color-dimgray);
   text-align: center;
 }
-.online-games-funny-videos-parent {
+.online-games-funny-videos-wrapper50 {
   position: absolute;
   top: 1550px;
   left: calc(50% - 328px);
@@ -422,13 +422,13 @@ body {
   color: var(--color-dimgray);
 }
 .rectangle-container,
-.rectangle-parent1,
+.rectangle-wrap1,
 .website-view-inner {
   position: absolute;
   top: 1700px;
   width: 342px;
 }
-.rectangle-parent1 {
+.rectangle-wrap1 {
   left: 606px;
   height: 484px;
   color: var(--color-dimgray);
@@ -440,7 +440,7 @@ body {
   object-fit: cover;
 }
 .breaking-game-records,
-.rectangle-parent2 {
+.rectangle-wrap2 {
   position: absolute;
   color: var(--color-dimgray);
 }
@@ -452,7 +452,7 @@ body {
   display: inline-block;
   width: 244px;
 }
-.rectangle-parent2 {
+.rectangle-wrap2 {
   top: 1700px;
   left: 1338px;
   width: 342px;
@@ -472,9 +472,9 @@ body {
   font-weight: 600;
   background: linear-gradient(90deg, #ff42a5, #ff42a5);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transwrapper50;
 }
-.group-parent4 {
+.group-wrapper504 {
   position: absolute;
   top: 1856px;
   left: 1087px;
@@ -498,7 +498,7 @@ body {
   width: 318.5px;
   height: 365.08px;
 }
-.rectangle-parent3 {
+.rectangle-wrap3 {
   position: absolute;
   top: 0;
   left: 473px;
@@ -509,7 +509,7 @@ body {
   margin: 0;
   background: linear-gradient(180deg, #f948b2, #8758f1);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transwrapper50;
 }
 .no-downloads {
   margin: 0;
@@ -530,14 +530,14 @@ body {
   display: inline-block;
   width: 353px;
 }
-.play-instantly-no-downloads-n-parent {
+.play-instantly-no-downloads-n-wrapper50 {
   position: absolute;
   top: 216px;
   left: calc(50% - 626.5px);
   width: 353px;
   height: 294px;
 }
-.group-parent5 {
+.group-wrapper505 {
   position: absolute;
   top: 2304px;
   left: 427px;
@@ -562,7 +562,7 @@ body {
   width: 318px;
   height: 365px;
 }
-.rectangle-parent4 {
+.rectangle-wrap4 {
   position: absolute;
   top: 0;
   left: 0;
@@ -587,14 +587,14 @@ body {
   display: inline-block;
   width: 483px;
 }
-.play-games-online-anywhere-an-parent {
+.play-games-online-anywhere-an-wrapper50 {
   position: absolute;
   top: 240px;
   left: calc(50% + 238px);
   width: 483px;
   height: 294px;
 }
-.group-parent6 {
+.group-wrapper506 {
   position: absolute;
   top: 3149.83px;
   left: 238px;
@@ -640,7 +640,7 @@ body {
   line-height: 30px;
   width: 680px;
 }
-.careers-parent {
+.careers-wrapper50 {
   position: absolute;
   top: 0;
   left: calc(50% - 340px);
@@ -666,7 +666,7 @@ body {
   font-weight: 600;
   background: linear-gradient(90deg, #ff42a5, #ff42a5);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transwrapper50;
 }
 .see-all-positions-wrapper {
   position: absolute;
@@ -680,7 +680,7 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
 }
-.group-parent7 {
+.group-wrapper507 {
   position: absolute;
   top: 4162.83px;
   left: calc(50% - 720px);
@@ -697,7 +697,7 @@ body {
   object-fit: cover;
 }
 .group-child8,
-.pngwing-5-parent,
+.pngwing-5-wrapper50,
 .vector-icon {
   position: absolute;
   top: 0;
@@ -706,7 +706,7 @@ body {
   height: 821px;
 }
 .group-child8,
-.pngwing-5-parent {
+.pngwing-5-wrapper50 {
   top: 4042.83px;
   left: 907px;
 }
@@ -725,7 +725,7 @@ body {
   font-weight: 600;
 }
 .group-child9,
-.rectangle-parent5 {
+.rectangle-wrap5 {
   position: absolute;
   top: 0;
   left: 0;
@@ -740,7 +740,7 @@ body {
   height: 60px;
   object-fit: cover;
 }
-.group-parent10 {
+.group-wrapper5010 {
   position: absolute;
   top: 0;
   left: 774px;
@@ -752,15 +752,15 @@ body {
   background-color: var(--color-white);
 }
 .group-child10,
-.group-parent11,
-.rectangle-parent6 {
+.group-wrapper5011,
+.rectangle-wrap6 {
   position: absolute;
   top: 0;
   left: 0;
   width: 231px;
   height: 80px;
 }
-.group-parent11 {
+.group-wrapper5011 {
   top: 1px;
   left: 1082px;
 }
@@ -769,15 +769,15 @@ body {
   background-color: var(--color-white);
 }
 .group-child12,
-.group-parent12,
-.rectangle-parent7 {
+.group-wrapper5012,
+.rectangle-wrap7 {
   position: absolute;
   top: 0;
   left: 0;
   width: 299px;
   height: 80px;
 }
-.group-parent12 {
+.group-wrapper5012 {
   top: 107px;
 }
 .group-child14 {
@@ -785,21 +785,21 @@ body {
   background-color: var(--color-white);
 }
 .group-child14,
-.group-parent13,
-.group-parent9,
-.rectangle-parent8 {
+.group-wrapper5013,
+.group-wrapper509,
+.rectangle-wrap8 {
   position: absolute;
   top: 0;
   left: 0;
   width: 262px;
   height: 80px;
 }
-.group-parent13,
-.group-parent9 {
+.group-wrapper5013,
+.group-wrapper509 {
   top: 106.83px;
   left: 956px;
 }
-.group-parent9 {
+.group-wrapper509 {
   top: 0.17px;
   left: 86px;
   width: 1313px;
@@ -810,7 +810,7 @@ body {
   background-color: var(--color-white);
 }
 .group-child16,
-.group-parent15 {
+.group-wrapper5015 {
   position: absolute;
   top: 0;
   left: 0;
@@ -823,8 +823,8 @@ body {
 }
 .group-child18,
 .group-child20,
-.group-parent16,
-.rectangle-parent10 {
+.group-wrapper5016,
+.rectangle-wrap10 {
   position: absolute;
   top: 0;
   left: 0;
@@ -832,7 +832,7 @@ body {
   height: 80px;
 }
 .group-child20,
-.group-parent16 {
+.group-wrapper5016 {
   left: 270px;
 }
 .group-child20 {
@@ -848,17 +848,17 @@ body {
   font-weight: 600;
   background: linear-gradient(90deg, #ff42a5, #ff42a5);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transwrapper50;
 }
-.group-parent17,
-.rectangle-parent11 {
+.group-wrapper5017,
+.rectangle-wrap11 {
   position: absolute;
   top: 0;
   left: 0;
   width: 248px;
   height: 80px;
 }
-.group-parent17 {
+.group-wrapper5017 {
   left: 578px;
 }
 .group-child22 {
@@ -866,15 +866,15 @@ body {
   background-color: var(--color-white);
 }
 .group-child22,
-.group-parent18,
-.rectangle-parent12 {
+.group-wrapper5018,
+.rectangle-wrap12 {
   position: absolute;
   top: 0;
   left: 0;
   width: 317px;
   height: 80px;
 }
-.group-parent18 {
+.group-wrapper5018 {
   top: 108.17px;
   left: 418px;
 }
@@ -883,21 +883,21 @@ body {
   background-color: var(--color-white);
 }
 .group-child24,
-.group-parent19,
-.rectangle-parent13 {
+.group-wrapper5019,
+.rectangle-wrap13 {
   position: absolute;
   top: 0;
   left: 0;
   width: 244px;
   height: 80px;
 }
-.group-parent19 {
+.group-wrapper5019 {
   top: 107.17px;
   left: 764px;
 }
 .group-child26,
-.group-parent14,
-.group-parent8 {
+.group-wrapper5014,
+.group-wrapper508 {
   position: absolute;
   top: 0;
   left: 0;
@@ -905,7 +905,7 @@ body {
   height: 188.17px;
 }
 .group-child26,
-.group-parent8 {
+.group-wrapper508 {
   top: 4983.83px;
   left: 239px;
   width: 1399px;
@@ -922,7 +922,7 @@ body {
   font-weight: 500;
 }
 .play-games-gamer-2000-2023-wrapper,
-.terms-and-conditions-parent {
+.terms-and-conditions-wrapper50 {
   position: absolute;
   display: flex;
   flex-direction: row;
@@ -930,7 +930,7 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
 }
-.terms-and-conditions-parent {
+.terms-and-conditions-wrapper50 {
   top: 0;
   left: calc(50% - 354px);
   gap: var(--gap-41xl);
@@ -959,7 +959,7 @@ body {
   position: relative;
   font-weight: 600;
 }
-.our-story-parent {
+.our-story-wrapper50 {
   position: absolute;
   top: 109px;
   left: calc(50% - 407px);
@@ -978,14 +978,14 @@ body {
   width: 457.13px;
   height: 40px;
 }
-.group-parent20 {
+.group-wrapper5020 {
   position: absolute;
   top: 120px;
   left: calc(50% - 407px);
   width: 814px;
   height: 396px;
 }
-.rectangle-parent14 {
+.rectangle-wrap14 {
   position: absolute;
   top: 5290.83px;
   left: 0;
