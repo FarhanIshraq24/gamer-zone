@@ -1,5 +1,49 @@
+.title-logo{
+  display: flex;
+}
+
+body {
+  display: flexbox;
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-work-sans: "Work Sans";
+
+  /* font sizes */
+  --font-size-lg: 18px;
+  --font-size-26xl: 45px;
+  --font-size-base: 16px;
+  --font-size-xl: 20px;
+  --font-size-29xl: 48px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #0b0223;
+  --color-gray-200: rgba(255, 255, 255, 0.6);
+  --color-dimgray: #534c64;
+  --color-darkslategray: #3c354f;
+
+  /* Gaps */
+  --gap-41xl: 10vw;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+  --padding-2xl: 21px;
+  --padding-21xl: 40px;
+
+  /* border radiuses */
+  --br-31xl: 10rem;
+  --br-29xl: 9rem;
+  --br-5xs: 0.5rem;
+  --br-base: 4rem;
+}
+
 .group-child,
 .website-view-child {
+  display: flexbox;
   position: absolute;
   top: 130px;
   left: 0;
@@ -7,6 +51,7 @@
   height: 700px;
 }
 .group-child {
+  display: flexbox;
   top: 0;
   background-color: var(--color-white);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
@@ -14,6 +59,7 @@
   height: 130px;
 }
 .g {
+  display: flexbox;
   background: linear-gradient(90deg, #ff42a5, #ff42a5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -200,6 +246,7 @@
 }
 .go-rogue-wrapper,
 .sign-in-wrapper {
+  display: flexbox;
   position: absolute;
   top: 0;
   border-radius: var(--br-29xl);
