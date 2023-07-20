@@ -1,9 +1,4 @@
-.title-logo{
-  display: flex;
-}
-
 body {
-  display: flexbox;
   margin: 0;
   line-height: normal;
 }
@@ -27,7 +22,7 @@ body {
   --color-darkslategray: #3c354f;
 
   /* Gaps */
-  --gap-41xl: 10vw;
+  --gap-41xl: 60px;
 
   /* Paddings */
   --padding-3xs: 10px;
@@ -35,15 +30,16 @@ body {
   --padding-21xl: 40px;
 
   /* border radiuses */
-  --br-31xl: 10rem;
-  --br-29xl: 9rem;
-  --br-5xs: 0.5rem;
-  --br-base: 4rem;
+  --br-31xl: 50px;
+  --br-29xl: 48px;
+  --br-5xs: 8px;
+  --br-base: 16px;
 }
+
+
 
 .group-child,
 .website-view-child {
-  display: flexbox;
   position: absolute;
   top: 130px;
   left: 0;
@@ -51,7 +47,6 @@ body {
   height: 700px;
 }
 .group-child {
-  display: flexbox;
   top: 0;
   background-color: var(--color-white);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
@@ -59,17 +54,16 @@ body {
   height: 130px;
 }
 .g {
-  display: flexbox;
   background: linear-gradient(90deg, #ff42a5, #ff42a5);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transwrapper50;
+  -webkit-text-fill-color: transparent;
 }
 .gamer {
   position: absolute;
   top: 0;
   left: 106.04px;
 }
-.gamer-wrapper50,
+.gamer-parent,
 .group-item {
   position: absolute;
   top: 6px;
@@ -77,7 +71,7 @@ body {
   width: 86.04px;
   height: 40px;
 }
-.gamer-wrapper50 {
+.gamer-parent {
   top: 1px;
   width: 253.04px;
   height: 53px;
@@ -92,7 +86,7 @@ body {
 .developers {
   left: 113px;
 }
-.about-us-wrapper50,
+.about-us-parent,
 .group-inner {
   position: absolute;
   top: 17px;
@@ -134,14 +128,14 @@ body {
   font-size: var(--font-size-lg);
   color: var(--color-darkslategray);
 }
-.group-wrapper50 {
+.group-parent {
   position: absolute;
   top: 37px;
   left: 240px;
   width: 1440px;
   height: 56px;
 }
-.rectangle-wrap {
+.rectangle-parent {
   position: absolute;
   top: 0;
   left: 0;
@@ -151,7 +145,9 @@ body {
   font-size: var(--font-size-26xl);
 }
 
-.pngwing-1-wrapper50 {
+
+
+.pngwing-1-parent {
   position: absolute;
   top: 149px;
   left: 969px;
@@ -173,9 +169,9 @@ body {
   font-weight: 800;
   background: linear-gradient(180deg, #f948b2, #8758f1);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transwrapper50;
+  -webkit-text-fill-color: transparent;
 }
-.play-like-the-wrapper50 {
+.play-like-the-parent {
   position: absolute;
   top: 0;
   left: 0;
@@ -189,7 +185,7 @@ body {
   text-transform: lowercase;
   font-weight: 500;
 }
-.click-instant-play-wrapper50,
+.click-instant-play-parent,
 .frame-icon {
   position: absolute;
   top: 0;
@@ -200,7 +196,7 @@ body {
   width: 24px;
   overflow: hidden;
 }
-.click-instant-play-wrapper50 {
+.click-instant-play-parent {
   width: 223px;
   text-align: center;
 }
@@ -210,25 +206,25 @@ body {
   left: 36px;
   font-weight: 500;
 }
-.no-download-wrapper50 {
+.no-download-parent {
   position: absolute;
   top: 40px;
   left: 0;
   width: 167px;
   height: 24px;
 }
-.s-of-supported-online-games-wrapper50 {
+.s-of-supported-online-games-parent {
   top: 80px;
   height: 24px;
 }
-.group-wrapper502,
+.group-parent2,
 .group-wrapper,
-.s-of-supported-online-games-wrapper50 {
+.s-of-supported-online-games-parent {
   position: absolute;
   left: 0;
   width: 362px;
 }
-.group-wrapper502 {
+.group-parent2 {
   top: 195px;
   height: 104px;
   text-align: left;
@@ -246,7 +242,6 @@ body {
 }
 .go-rogue-wrapper,
 .sign-in-wrapper {
-  display: flexbox;
   position: absolute;
   top: 0;
   border-radius: var(--br-29xl);
@@ -264,12 +259,12 @@ body {
   left: 180px;
   background-color: #4ec5f7;
 }
-.frame-wrapper50,
+.frame-parent,
 .group-div {
   position: absolute;
   width: 365px;
 }
-.frame-wrapper50 {
+.frame-parent {
   top: 339px;
   left: 0;
   height: 65px;
@@ -302,7 +297,7 @@ body {
   left: 195px;
   background: linear-gradient(180deg, #f948b2, #8758f1);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transwrapper50;
+  -webkit-text-fill-color: transparent;
 }
 .an-international-digital {
   position: absolute;
@@ -313,7 +308,7 @@ body {
   display: inline-block;
   width: 520px;
 }
-.we-are-gamer-wrapper50 {
+.we-are-gamer-parent {
   position: absolute;
   top: 0;
   left: 0;
@@ -352,7 +347,7 @@ body {
   font-size: var(--font-size-xl);
   color: var(--color-white);
 }
-.group-wrapper503 {
+.group-parent3 {
   position: absolute;
   top: 925px;
   left: 1160px;
@@ -373,7 +368,7 @@ body {
 .funny-videos {
   background: linear-gradient(180deg, #f948b2, #8758f1);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transwrapper50;
+  -webkit-text-fill-color: transparent;
 }
 .a-collection-of,
 .online-games-funny-container {
@@ -389,7 +384,7 @@ body {
   color: var(--color-dimgray);
   text-align: center;
 }
-.online-games-funny-videos-wrapper50 {
+.online-games-funny-videos-parent {
   position: absolute;
   top: 1550px;
   left: calc(50% - 328px);
@@ -422,13 +417,13 @@ body {
   color: var(--color-dimgray);
 }
 .rectangle-container,
-.rectangle-wrap1,
+.rectangle-parent1,
 .website-view-inner {
   position: absolute;
   top: 1700px;
   width: 342px;
 }
-.rectangle-wrap1 {
+.rectangle-parent1 {
   left: 606px;
   height: 484px;
   color: var(--color-dimgray);
@@ -440,7 +435,7 @@ body {
   object-fit: cover;
 }
 .breaking-game-records,
-.rectangle-wrap2 {
+.rectangle-parent2 {
   position: absolute;
   color: var(--color-dimgray);
 }
@@ -452,7 +447,7 @@ body {
   display: inline-block;
   width: 244px;
 }
-.rectangle-wrap2 {
+.rectangle-parent2 {
   top: 1700px;
   left: 1338px;
   width: 342px;
@@ -472,9 +467,9 @@ body {
   font-weight: 600;
   background: linear-gradient(90deg, #ff42a5, #ff42a5);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transwrapper50;
+  -webkit-text-fill-color: transparent;
 }
-.group-wrapper504 {
+.group-parent4 {
   position: absolute;
   top: 1856px;
   left: 1087px;
@@ -498,7 +493,7 @@ body {
   width: 318.5px;
   height: 365.08px;
 }
-.rectangle-wrap3 {
+.rectangle-parent3 {
   position: absolute;
   top: 0;
   left: 473px;
@@ -509,7 +504,7 @@ body {
   margin: 0;
   background: linear-gradient(180deg, #f948b2, #8758f1);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transwrapper50;
+  -webkit-text-fill-color: transparent;
 }
 .no-downloads {
   margin: 0;
@@ -530,14 +525,14 @@ body {
   display: inline-block;
   width: 353px;
 }
-.play-instantly-no-downloads-n-wrapper50 {
+.play-instantly-no-downloads-n-parent {
   position: absolute;
   top: 216px;
   left: calc(50% - 626.5px);
   width: 353px;
   height: 294px;
 }
-.group-wrapper505 {
+.group-parent5 {
   position: absolute;
   top: 2304px;
   left: 427px;
@@ -562,7 +557,7 @@ body {
   width: 318px;
   height: 365px;
 }
-.rectangle-wrap4 {
+.rectangle-parent4 {
   position: absolute;
   top: 0;
   left: 0;
@@ -587,14 +582,14 @@ body {
   display: inline-block;
   width: 483px;
 }
-.play-games-online-anywhere-an-wrapper50 {
+.play-games-online-anywhere-an-parent {
   position: absolute;
   top: 240px;
   left: calc(50% + 238px);
   width: 483px;
   height: 294px;
 }
-.group-wrapper506 {
+.group-parent6 {
   position: absolute;
   top: 3149.83px;
   left: 238px;
@@ -640,7 +635,7 @@ body {
   line-height: 30px;
   width: 680px;
 }
-.careers-wrapper50 {
+.careers-parent {
   position: absolute;
   top: 0;
   left: calc(50% - 340px);
@@ -666,7 +661,7 @@ body {
   font-weight: 600;
   background: linear-gradient(90deg, #ff42a5, #ff42a5);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transwrapper50;
+  -webkit-text-fill-color: transparent;
 }
 .see-all-positions-wrapper {
   position: absolute;
@@ -680,7 +675,7 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
 }
-.group-wrapper507 {
+.group-parent7 {
   position: absolute;
   top: 4162.83px;
   left: calc(50% - 720px);
@@ -697,7 +692,7 @@ body {
   object-fit: cover;
 }
 .group-child8,
-.pngwing-5-wrapper50,
+.pngwing-5-parent,
 .vector-icon {
   position: absolute;
   top: 0;
@@ -706,7 +701,7 @@ body {
   height: 821px;
 }
 .group-child8,
-.pngwing-5-wrapper50 {
+.pngwing-5-parent {
   top: 4042.83px;
   left: 907px;
 }
@@ -725,7 +720,7 @@ body {
   font-weight: 600;
 }
 .group-child9,
-.rectangle-wrap5 {
+.rectangle-parent5 {
   position: absolute;
   top: 0;
   left: 0;
@@ -740,7 +735,7 @@ body {
   height: 60px;
   object-fit: cover;
 }
-.group-wrapper5010 {
+.group-parent10 {
   position: absolute;
   top: 0;
   left: 774px;
@@ -752,15 +747,15 @@ body {
   background-color: var(--color-white);
 }
 .group-child10,
-.group-wrapper5011,
-.rectangle-wrap6 {
+.group-parent11,
+.rectangle-parent6 {
   position: absolute;
   top: 0;
   left: 0;
   width: 231px;
   height: 80px;
 }
-.group-wrapper5011 {
+.group-parent11 {
   top: 1px;
   left: 1082px;
 }
@@ -769,15 +764,15 @@ body {
   background-color: var(--color-white);
 }
 .group-child12,
-.group-wrapper5012,
-.rectangle-wrap7 {
+.group-parent12,
+.rectangle-parent7 {
   position: absolute;
   top: 0;
   left: 0;
   width: 299px;
   height: 80px;
 }
-.group-wrapper5012 {
+.group-parent12 {
   top: 107px;
 }
 .group-child14 {
@@ -785,21 +780,21 @@ body {
   background-color: var(--color-white);
 }
 .group-child14,
-.group-wrapper5013,
-.group-wrapper509,
-.rectangle-wrap8 {
+.group-parent13,
+.group-parent9,
+.rectangle-parent8 {
   position: absolute;
   top: 0;
   left: 0;
   width: 262px;
   height: 80px;
 }
-.group-wrapper5013,
-.group-wrapper509 {
+.group-parent13,
+.group-parent9 {
   top: 106.83px;
   left: 956px;
 }
-.group-wrapper509 {
+.group-parent9 {
   top: 0.17px;
   left: 86px;
   width: 1313px;
@@ -810,7 +805,7 @@ body {
   background-color: var(--color-white);
 }
 .group-child16,
-.group-wrapper5015 {
+.group-parent15 {
   position: absolute;
   top: 0;
   left: 0;
@@ -823,8 +818,8 @@ body {
 }
 .group-child18,
 .group-child20,
-.group-wrapper5016,
-.rectangle-wrap10 {
+.group-parent16,
+.rectangle-parent10 {
   position: absolute;
   top: 0;
   left: 0;
@@ -832,7 +827,7 @@ body {
   height: 80px;
 }
 .group-child20,
-.group-wrapper5016 {
+.group-parent16 {
   left: 270px;
 }
 .group-child20 {
@@ -848,17 +843,17 @@ body {
   font-weight: 600;
   background: linear-gradient(90deg, #ff42a5, #ff42a5);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transwrapper50;
+  -webkit-text-fill-color: transparent;
 }
-.group-wrapper5017,
-.rectangle-wrap11 {
+.group-parent17,
+.rectangle-parent11 {
   position: absolute;
   top: 0;
   left: 0;
   width: 248px;
   height: 80px;
 }
-.group-wrapper5017 {
+.group-parent17 {
   left: 578px;
 }
 .group-child22 {
@@ -866,15 +861,15 @@ body {
   background-color: var(--color-white);
 }
 .group-child22,
-.group-wrapper5018,
-.rectangle-wrap12 {
+.group-parent18,
+.rectangle-parent12 {
   position: absolute;
   top: 0;
   left: 0;
   width: 317px;
   height: 80px;
 }
-.group-wrapper5018 {
+.group-parent18 {
   top: 108.17px;
   left: 418px;
 }
@@ -883,21 +878,21 @@ body {
   background-color: var(--color-white);
 }
 .group-child24,
-.group-wrapper5019,
-.rectangle-wrap13 {
+.group-parent19,
+.rectangle-parent13 {
   position: absolute;
   top: 0;
   left: 0;
   width: 244px;
   height: 80px;
 }
-.group-wrapper5019 {
+.group-parent19 {
   top: 107.17px;
   left: 764px;
 }
 .group-child26,
-.group-wrapper5014,
-.group-wrapper508 {
+.group-parent14,
+.group-parent8 {
   position: absolute;
   top: 0;
   left: 0;
@@ -905,7 +900,7 @@ body {
   height: 188.17px;
 }
 .group-child26,
-.group-wrapper508 {
+.group-parent8 {
   top: 4983.83px;
   left: 239px;
   width: 1399px;
@@ -922,7 +917,7 @@ body {
   font-weight: 500;
 }
 .play-games-gamer-2000-2023-wrapper,
-.terms-and-conditions-wrapper50 {
+.terms-and-conditions-parent {
   position: absolute;
   display: flex;
   flex-direction: row;
@@ -930,7 +925,7 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
 }
-.terms-and-conditions-wrapper50 {
+.terms-and-conditions-parent {
   top: 0;
   left: calc(50% - 354px);
   gap: var(--gap-41xl);
@@ -959,7 +954,7 @@ body {
   position: relative;
   font-weight: 600;
 }
-.our-story-wrapper50 {
+.our-story-parent {
   position: absolute;
   top: 109px;
   left: calc(50% - 407px);
@@ -978,14 +973,14 @@ body {
   width: 457.13px;
   height: 40px;
 }
-.group-wrapper5020 {
+.group-parent20 {
   position: absolute;
   top: 120px;
   left: calc(50% - 407px);
   width: 814px;
   height: 396px;
 }
-.rectangle-wrap14 {
+.rectangle-parent14 {
   position: absolute;
   top: 5290.83px;
   left: 0;
